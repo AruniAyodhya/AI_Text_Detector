@@ -74,7 +74,7 @@ if st.button("Analyze Text"):
 
         # EXPLAINABILITY PART (LIME)
         st.subheader("Explainability: Why did the model choose this?")
-        st.info("The words highlighted in orange contribute to an 'AI' prediction, while blue words suggest 'Human' (colors may vary based on model classes).")
+        st.info("The words highlighted in orange contribute to an 'Human' prediction, while blue words suggest 'AI' (colors may vary based on model classes).")
         
         with st.spinner("Generating explanation..."):
             # Generate LIME explanation
